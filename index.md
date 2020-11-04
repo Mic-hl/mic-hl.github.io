@@ -5,7 +5,7 @@
         <meta name="description" content="webdesign practice">
         <meta name="keywords" content="HTML, CSS, JavaScript, convert, converter, unit, units">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
