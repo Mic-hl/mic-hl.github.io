@@ -11,7 +11,6 @@
     <body>
         <header>
             <h2>Webdesign Practice</h2>
-            <div id="header_container">
                 <a href="https://developer.mozilla.org/" target="_blank">
                     <div id="link_mdn">
                         <img class="header_imgs" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="float: left;" alt="MDN_Logo">
@@ -24,7 +23,6 @@
                 <a href="https://www.w3schools.com/" target="_blank">
                     <img id="link_w3" class="header_imgs" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
                 </a>
-            </div>
         </header>
     </body>
 </html>
