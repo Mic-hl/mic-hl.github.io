@@ -19,10 +19,10 @@
                     </div>
                 </a>
                 <a href="https://html-css-js.com/" target="_blank">
-                    <img class="header_imgs links" src="https://jml.neocities.org/html5-css3-js.png" alt="html css js Logo">
+                    <img id="link_hcj" class="header_imgs" src="https://jml.neocities.org/html5-css3-js.png" alt="html css js Logo">
                 </a>
                 <a href="https://www.w3schools.com/" target="_blank">
-                    <img class="header_imgs links" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
+                    <img id="link_w3" class="header_imgs" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
                 </a>
             </div>
         </header>
