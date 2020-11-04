@@ -13,13 +13,17 @@
             <h2>Webdesign Practice</h2>
             <div id="header_container">
                 <a href="https://developer.mozilla.org/" target="_blank">
-                <div id="link_mdn">
-                    <img class="header_imgs" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="float: left;" alt="MDN_Logo">
-                    <p id="header_txt">MDN web docs<br>moz://a</p>
-                </div>
+                    <div id="link_mdn">
+                        <img class="header_imgs" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="float: left;" alt="MDN_Logo">
+                        <p id="header_txt">MDN web docs<br>moz://a</p>
+                    </div>
                 </a>
-                <img class="header_imgs" src="https://jml.neocities.org/html5-css3-js.png" alt="html css js Logo">
-                <img class="header_imgs" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
+                <a href="https://html-css-js.com/" target="_blank">
+                    <img class="header_imgs" src="https://jml.neocities.org/html5-css3-js.png" alt="html css js Logo">
+                </a>
+                <a href="https://www.w3schools.com/" target="_blank">
+                    <img class="header_imgs" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
+                </a>
             </div>
         </header>
     </body>
