@@ -34,8 +34,7 @@
         </div>
 
         <footer>
-            <p id="footer_txt">02.11.2020</p>
-            <img id="ecosia" src="https://maxcdn.icons8.com/Share/icon/Logos/ecosia1600.png" alt="ecosia logo">
+            <p id="footer_txt">.</p>
         </footer>
         
         <script src="scripts/main.js"></script>
