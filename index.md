@@ -24,9 +24,6 @@
                 <a href="https://www.w3schools.com/" target="_blank">
                     <img id="link_w3" class="header_imgs" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
                 </a>
-                <a href="https://www.freecodecamp.org/" target="_blank">
-                    <img id="link_fcc" class=header_imgs" src="https://clipground.com/images/freecodecamp-logo-1.png" alt="freecodecamp logo">
-                </a>
             </div>
         </header>
     </body>
