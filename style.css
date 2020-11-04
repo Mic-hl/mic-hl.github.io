@@ -26,6 +26,7 @@ h2 {
   height: 50px;
   vertical-align: middle;
   text-decoration: underline;
+  font-weight: bold;
   color: white;
   background-color: black;
 }
