@@ -19,7 +19,7 @@ h2 {
 #header_container {
   display: grid;
   grid-template-rows: 50px;
-  grid-template-columns: 230px 50px 50px;
+  grid-template-columns: 180px 50px 50px;
 }
 
 #header_txt {
