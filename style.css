@@ -40,7 +40,11 @@ h2 {
   transform: scale(1.05);
 }
 
-#links:hover {
+#link_hcj:hover {
+  transform: scale(1.15);
+}
+
+#link_w3:hover {
   transform: scale(1.15);
 }
 
