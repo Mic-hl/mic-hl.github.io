@@ -13,11 +13,11 @@
             <h2>Webdesign Practice</h2>
             <div id="header_container">
                 <div id="header_img1">
-                    <img id="header_img" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" alt="MDN_Logo">
+                    <img id="header_img" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="height: 50px; width: 50px;" alt="MDN_Logo">
                     <p id="header_txt">MDN web docs<br>moz://a</p>
                 </div>
-                <img class="hov" id="header_img2" src="https://jml.neocities.org/html5-css3-js.png" alt="html css js Logo">
-                <img class="hov" id="header_img3" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" alt="w3schools Logo">
+                <img class="hov" id="header_img2" src="https://jml.neocities.org/html5-css3-js.png" style="height: 50px; width: 50px;" alt="html css js Logo">
+                <img class="hov" id="header_img3" src="http://2.bp.blogspot.com/_I2N-ZY7aoTQ/TIqoyEFh_9I/AAAAAAAAHyw/Df6KPPfJNcM/s320/logo_w3school.png" style="height: 50px; width: 50px;" alt="w3schools Logo">
             </div>
         </header>
 
