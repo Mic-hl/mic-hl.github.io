@@ -1,3 +1,5 @@
+/* github frame */
+
 .container-lg {
   max-width: 100vw;
 }
@@ -9,4 +11,21 @@ h1 {
 h2 {
   border-bottom: none;
   text-align: center;
+}
+
+
+/* header */
+
+#header_txt {
+  height: 50px;
+  vertical-align: middle;
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+.header_imgs {
+  display: block;
+  height: 50px;
+  width: 50px;
 }
