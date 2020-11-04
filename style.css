@@ -24,6 +24,10 @@ h2 {
   background-color: black;
 }
 
+#link_mdn {
+  width: 200px;
+}
+
 .header_imgs {
   display: block;
   height: 50px;
