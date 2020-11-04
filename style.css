@@ -4,16 +4,12 @@
   max-width: 100vw;
 }
 
-.markdown-body {
-  border-bottom: none;
-}
-
 h1 {
   display: none;
 }
 
 #webdesign-practice {
-  border-bottom: none;
+  border-bottom: none !important;
   text-align: center;
 }
 
