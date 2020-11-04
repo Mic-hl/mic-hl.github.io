@@ -5,3 +5,7 @@
 h1 {
   display: none;
 }
+
+h2 {
+  border-bottom: none;
+}
