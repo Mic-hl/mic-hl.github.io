@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>practice_js</title>
+        <title>webdesign</title>
         <meta name="description" content="webdesign practice">
         <meta name="keywords" content="HTML, CSS, JavaScript, convert, converter, unit, units">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
