@@ -34,6 +34,14 @@ h2 {
   width: 180px;
 }
 
+#link_mdn:hover {
+  transform: scale(1.05);
+}
+
+#links:hover {
+  transform: scale(1.1);
+}
+
 .header_imgs {
   display: block;
   height: 50px;
