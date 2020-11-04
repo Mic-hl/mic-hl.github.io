@@ -13,7 +13,7 @@
             <h2>Webdesign Practice</h2>
             <div id="header_container">
                 <div id="header_img1">
-                    <img id="header_img" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="height: 50px; width: 50px;" alt="MDN_Logo">
+                    <img id="header_img" src="https://avatars0.githubusercontent.com/u/7565578?s=200&v=4" style="height: 50px; width: 50px; float: left;" alt="MDN_Logo">
                     <p id="header_txt">MDN web docs<br>moz://a</p>
                 </div>
                 <img class="hov" id="header_img2" src="https://jml.neocities.org/html5-css3-js.png" style="height: 50px; width: 50px;" alt="html css js Logo">
