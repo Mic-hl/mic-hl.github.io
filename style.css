@@ -19,7 +19,7 @@ h1 {
 #header_container {
   display: grid;
   grid-template-rows: 50px;
-  grid-template-columns: 180px 50px 50px;
+  grid-template-columns: 180px 50px 50px 50px;
   grid-column-gap: 10px;
 }
 
@@ -45,6 +45,10 @@ h1 {
   border-radius: 10px;
 }
 
+#link_fcc {
+  border-radius: 2px;
+}
+
 #link_mdn:hover {
   transform: scale(1.05);
 }
@@ -54,6 +58,10 @@ h1 {
 }
 
 #link_w3:hover {
+  transform: scale(1.15);
+}
+
+#link_fcc:hover {
   transform: scale(1.15);
 }
 
