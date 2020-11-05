@@ -15,9 +15,10 @@ h2 {
 #header_container {
     display: grid;
     grid-template-rows: 40px;
-    grid-template-columns: 180px 40px 40px 1fr;
-    column-gap: 10px;
+    grid-template-columns: 180px 40px 40px 40px 1fr;
+    column-gap: 12px;
     background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.678));
+    padding: 2px;
 }
   
 #header_txt {
@@ -45,6 +46,10 @@ h2 {
 #link_w3 {
     border-radius: 8px;
 }
+
+#link_fcc {
+    border-radius: 5px;
+}
   
 #link_mdn:hover {
     transform: scale(1.05);
@@ -55,6 +60,10 @@ h2 {
 }
   
 #link_w3:hover {
+    transform: scale(1.15);
+}
+
+#link_fcc:hover {
     transform: scale(1.15);
 }
   
@@ -74,4 +83,4 @@ h2 {
     #header_container {
         justify-content: center;
     }
-}  
+}
