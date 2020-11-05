@@ -313,18 +313,19 @@ button {
 
 @media only screen and (max-width: 472px) {
     .convi {
-        width: 360px;
-        grid-template-rows: 170px;
+        width: 350px;
+        grid-template-rows: 150px;
         justify-content: center;
     }
 
     .box {
-        height: 150px;
-        width: 150px;
+        height: 140px;
+        width: 140px;
     }
 
     label {
         font-size: 20px;
+        margin-top: 10px;
         margin-bottom: 5px;
     }
 
