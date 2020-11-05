@@ -313,8 +313,33 @@ button {
 
 @media only screen and (max-width: 472px) {
     .convi {
-        width: 390px;
-        grid-template-rows: 190px;
+        width: 360px;
+        grid-template-rows: 170px;
         justify-content: center;
+    }
+
+    .box {
+        height: 150px;
+        width: 150px;
+    }
+
+    label {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    .result {
+        min-width: 50px;
+        max-width: 100px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    button {
+        margin-bottom: 5px;
     }
 }
