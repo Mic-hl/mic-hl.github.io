@@ -90,6 +90,7 @@ h2 {
         justify-content: space-evenly;
         grid-template-rows: 40px 40px;
         grid-template-columns: 180px 40px 40px 40px;
+        row-gap: 12px;
         grid-template-areas: "mdn fcc w3 hcj"
                              "txt txt txt txt";
     }
