@@ -98,6 +98,10 @@ h2 {
     margin: 10px auto;
 }
 
+#playground_imgs {
+    border-radius: 8px;
+}
+
 
 /* media queries */
 
