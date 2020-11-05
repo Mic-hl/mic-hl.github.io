@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
 }
 
 
@@ -132,16 +133,17 @@ figcaption {
 
     #link_dscrptn {
         text-align: center;
-        padding: auto;
+        padding: auto auto 5px auto;
     }
 
     #playground {
-        width: 100%;
+        width: 98vw;
         margin: 10px auto;
         padding: auto;
     }
     
     figure {
         padding: 0;
+        margin: 15px auto;
     }
 }
