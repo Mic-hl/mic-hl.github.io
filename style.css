@@ -91,6 +91,16 @@ h2 {
 }
 
 
+/* sidebar */
+
+aside {
+    width: 150px;
+    position: absolute;
+    left: 0.6%;
+    margin: 15px 0 0 0;
+}
+
+
 /* playground */
 
 .playground {
