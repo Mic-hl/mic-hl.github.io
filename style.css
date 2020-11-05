@@ -1,70 +1,62 @@
-/* github frame */
-
-.container-lg {
-  max-width: 100vw;
-}
-
-h1 {
-  display: none;
-}
-
-#webdesign-practice {
-  border-bottom: none !important;
-  text-align: center;
-}
-
-
 /* header */
 
+h2 {
+    text-align: center;
+}
+
 #header_container {
-  display: grid;
-  grid-template-rows: 50px;
-  grid-template-columns: 180px 50px 50px 50px;
-  grid-column-gap: 10px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 180px 50px 50px 50px;
+    grid-column-gap: 10px;
 }
-
+  
 #header_txt {
-  height: 50px;
-  vertical-align: middle;
-  text-decoration: underline;
-  font-weight: bold;
-  color: white;
-  background-color: black;
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    background-color: black;
 }
-
+  
 #link_mdn {
-  width: 180px;
-  border-radius: 4px;
+    width: 180px;
+    border-radius: 4px;
 }
-
+  
 #link_hcj {
-  border-radius: 0 0 25px 25px;
+    border-radius: 0 0 25px 25px;
 }
-
+  
 #link_w3 {
-  border-radius: 10px;
+    border-radius: 10px;
 }
-
+  
 #link_mdn:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
-
+  
 #link_hcj:hover {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
-
+  
 #link_w3:hover {
-  transform: scale(1.15);
+    transform: scale(1.15);
 }
-
+  
 .header_imgs {
-  display: block;
-  height: 50px;
-  width: 50px;
+    display: block;
+    height: 50px;
+    width: 50px;
 }
-
+  
 @media only screen and (max-width: 600px) {
-  #header_container {
-    justify-content: center;
-  }
-}
+    #header_container {
+        justify-content: center;
+    }
+}  
