@@ -19,6 +19,7 @@ h2 {
     column-gap: 12px;
     background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.678));
     padding: 2px;
+    grid-template-areas: "mdn fcc w3 hcj txt";
 }
   
 #header_txt {
@@ -37,18 +38,22 @@ h2 {
 #link_mdn {
     width: 180px;
     border-radius: 3px;
+    grid-area: mdn;
 }
   
 #link_hcj {
     border-radius: 0 0 20px 20px;
+    grid-area: hcj;
 }
   
 #link_w3 {
     border-radius: 8px;
+    grid-area: w3;
 }
 
 #link_fcc {
     border-radius: 5px;
+    grid-area: fcc;
 }
   
 #link_mdn:hover {
@@ -77,10 +82,15 @@ h2 {
     text-align: right;
     margin: auto 2px;
     padding: 0 5px 0 0;
+    grid-area: txt;
 }
   
 @media only screen and (max-width: 600px) {
     #header_container {
-        justify-content: center;
+        justify-content: space-evenly;
+        grid-template-rows: 40px 40px;
+        grid-template-columns: 180px 40px 40px 40px;
+        grid-template-areas: "mdn fcc w3 hcj"
+                             "txt txt txt txt";
     }
 }
