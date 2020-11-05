@@ -15,6 +15,7 @@ h2 {
 
 #header_container {
     display: grid;
+    width: 100vw;
     grid-template-rows: 40px;
     grid-template-columns: 180px 40px 40px 40px 1fr;
     border-radius: 2px;
@@ -83,7 +84,7 @@ h2 {
 #link_dscrptn {
     text-align: right;
     margin: auto 2px;
-    padding: 0 5px 0 0;
+    padding: 0 35px 0 0;
     grid-area: txt;
 }
 
@@ -130,9 +131,11 @@ figcaption {
 
     #link_dscrptn {
         text-align: center;
+        padding: auto;
     }
 
     #playground {
         width: 100%;
+        margin: 10px auto;
     }
 }
