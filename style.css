@@ -93,4 +93,8 @@ h2 {
         grid-template-areas: "mdn fcc w3 hcj"
                              "txt txt txt txt";
     }
+    
+    #link_dscrptn {
+        text-align: center;
+    }
 }
