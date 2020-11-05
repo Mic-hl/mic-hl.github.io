@@ -138,4 +138,8 @@ figcaption {
         width: 100%;
         margin: 10px auto;
     }
+    
+    figure {
+        padding: 0;
+    }
 }
