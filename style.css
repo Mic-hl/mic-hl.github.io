@@ -16,6 +16,7 @@ h2 {
     display: grid;
     grid-template-rows: 40px;
     grid-template-columns: 180px 40px 40px 40px 1fr;
+    border-radius: 2px;
     column-gap: 12px;
     background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.678));
     padding: 2px;
@@ -25,6 +26,7 @@ h2 {
 #header_txt {
     height: 40px;
     width: 140px;
+    border-radius: 0 3px 3px 0;
     font-size: 15px;
     display: inline-block;
     margin: auto;
@@ -37,12 +39,11 @@ h2 {
   
 #link_mdn {
     width: 180px;
-    border-radius: 3px;
     grid-area: mdn;
 }
   
 #link_hcj {
-    border-radius: 0 0 20px 20px;
+    border-radius: 2px 2px 20px 20px;
     grid-area: hcj;
 }
   
@@ -84,7 +85,22 @@ h2 {
     padding: 0 5px 0 0;
     grid-area: txt;
 }
-  
+
+
+/* playground */
+
+#playground {
+    width: 80%;
+    min-height: 50px;
+    border-radius: 8px;
+    background-color: rgba(231, 240, 240, 0.801);
+    box-shadow: 3px 5px 5px rgba(180, 193, 209, 0.89);
+    margin: 10px auto;
+}
+
+
+/* media queries */
+
 @media only screen and (max-width: 600px) {
     #header_container {
         justify-content: space-evenly;
@@ -94,8 +110,12 @@ h2 {
         grid-template-areas: "mdn fcc w3 hcj"
                              "txt txt txt txt";
     }
-    
+
     #link_dscrptn {
         text-align: center;
+    }
+
+    #playground {
+        width: 100%;
     }
 }
