@@ -1,3 +1,10 @@
+/* body */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 /* header */
 
 h2 {
@@ -14,7 +21,7 @@ h2 {
 #header_txt {
     height: 50px;
     width: 130px;
-    font-size: 18px;
+    font-size: 17px;
     display: inline-block;
     margin: auto;
     vertical-align: middle;
