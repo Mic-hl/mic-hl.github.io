@@ -313,12 +313,8 @@ button {
 
 @media only screen and (max-width: 472px) {
     .convi {
-        width: 430px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .convi {
-        width: 410px;
+        width: 390px;
+        grid-template-rows: 190px;
+        justify-content: center;
     }
 }
