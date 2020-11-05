@@ -103,7 +103,7 @@ figcaption {
     margin-top: 25px;
 }
 
-#playground {
+.playground {
     width: 80vw;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -124,13 +124,37 @@ figcaption {
 
 /* media queries */
 
+@media only screen and (max-width: 850px) {
+    h2 {
+        margin-top: 35px;
+    }
+
+    #header_container {
+        grid-template-rows: 45px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    h2 {
+        margin-top: 40px;
+    }
+
+    #header_container {
+        grid-template-rows: 70px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    h2 {
+        margin-top: 50px;
+    }
+
     #header_container {
         width: 98vw;
-        padding: 0;
-        margin: 0 auto;
+        padding: 10px 0 10px 0;
+        margin: 30px auto 10px auto;
         justify-content: space-evenly;
-        grid-template-rows: 40px 40px;
+        grid-template-rows: 40px 45px;
         grid-template-columns: 180px 40px 40px 40px;
         row-gap: 12px;
         background: linear-gradient(180deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
@@ -140,10 +164,9 @@ figcaption {
 
     #link_dscrptn {
         text-align: center;
-        padding: auto auto 5px auto;
     }
 
-    #playground {
+    .playground {
         width: 98vw;
         margin: 10px auto;
         padding: auto;
