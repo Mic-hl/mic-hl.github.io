@@ -10,6 +10,7 @@
 h2 {
     text-align: center;
     text-shadow: 3px 5px 5px rgba(180, 193, 209, 0.7);
+    margin: 25px;
 }
 
 #header_container {
@@ -89,13 +90,22 @@ h2 {
 
 /* playground */
 
+figure {
+    padding: 10px 0;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
 #playground {
     width: 80%;
     min-height: 50px;
     border-radius: 8px;
     background-color: rgba(231, 240, 240, 0.801);
     box-shadow: 3px 5px 5px rgba(180, 193, 209, 0.89);
-    margin: 10px auto;
+    margin: 15px auto;
+    padding: 10px;
 }
 
 #playground_imgs {
@@ -113,6 +123,7 @@ h2 {
         grid-template-rows: 40px 40px;
         grid-template-columns: 180px 40px 40px 40px;
         row-gap: 12px;
+        background: linear-gradient(180deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
         grid-template-areas: "mdn fcc w3 hcj"
                              "txt txt txt txt";
     }
