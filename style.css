@@ -18,7 +18,7 @@ h2 {
     grid-template-columns: 180px 40px 40px 40px 1fr;
     border-radius: 2px;
     column-gap: 12px;
-    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.678));
+    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
     padding: 2px;
     grid-template-areas: "mdn fcc w3 hcj txt";
 }
