@@ -9,19 +9,21 @@
 
 h2 {
     text-align: center;
+    text-shadow: 3px 5px 5px rgba(180, 193, 209, 0.7);
 }
 
 #header_container {
     display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 180px 50px 50px;
+    grid-template-rows: 40px;
+    grid-template-columns: 180px 40px 40px 1fr;
     column-gap: 10px;
+    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.678));
 }
   
 #header_txt {
-    height: 50px;
-    width: 130px;
-    font-size: 17px;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
     display: inline-block;
     margin: auto;
     vertical-align: middle;
@@ -33,15 +35,15 @@ h2 {
   
 #link_mdn {
     width: 180px;
-    border-radius: 4px;
+    border-radius: 3px;
 }
   
 #link_hcj {
-    border-radius: 0 0 25px 25px;
+    border-radius: 0 0 20px 20px;
 }
   
 #link_w3 {
-    border-radius: 10px;
+    border-radius: 8px;
 }
   
 #link_mdn:hover {
@@ -58,8 +60,14 @@ h2 {
   
 .header_imgs {
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+#link_dscrptn {
+    text-align: right;
+    margin: auto 2px;
+    padding: 0 5px 0 0;
 }
   
 @media only screen and (max-width: 600px) {
