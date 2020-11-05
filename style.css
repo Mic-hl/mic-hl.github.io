@@ -128,6 +128,7 @@ figcaption {
 
 @media only screen and (max-width: 600px) {
     #header_container {
+        width: 98vw;
         justify-content: space-evenly;
         grid-template-rows: 40px 40px;
         grid-template-columns: 180px 40px 40px 40px;
