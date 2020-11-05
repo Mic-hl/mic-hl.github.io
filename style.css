@@ -95,6 +95,8 @@ h2 {
 
 figure {
     padding: 10px 0;
+    grid-area: pics;
+    border: none;
 }
 
 figcaption {
@@ -102,13 +104,16 @@ figcaption {
 }
 
 #playground {
-    width: 80%;
+    width: 80vw;
     min-height: 50px;
     border-radius: 8px;
     background-color: rgba(231, 240, 240, 0.801);
     box-shadow: 3px 5px 5px rgba(180, 193, 209, 0.89);
     margin: 15px auto;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 350px 1fr;
+    grid-template-rows: 600px;
+    grid-template-areas: ". pics .";
 }
 
 #playground_imgs {
