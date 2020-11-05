@@ -15,7 +15,7 @@ h2 {
     display: grid;
     grid-template-rows: 50px;
     grid-template-columns: 180px 50px 50px 50px;
-    grid-column-gap: 10px;
+    column-gap: 10px;
 }
   
 #header_txt {
