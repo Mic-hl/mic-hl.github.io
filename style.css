@@ -109,6 +109,27 @@ nav {
     height: 50px;
 }
 
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: rgba(231, 240, 240, 0.801);
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 2px 3px 5px rgba(180, 193, 209, 0.89);
+}
+
+.navLink:visited {
+    color: black;
+}
+
+.navLink:active {
+    box-shadow: -2px -3px 5px rgba(180, 193, 209, 0.89);
+}
+
 
 /* playground */
 
@@ -258,6 +279,31 @@ button {
                              "goz"
                              "kglb"
     }
+
+    .box {
+        border-radius: 0 30px 30px 30px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .convi {
+        width: 380px;
+        height: 170px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    button {
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -306,11 +352,16 @@ button {
         padding: 0;
         margin: 15px auto;
     }
+
+    .navLink {
+        width: 130px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .convi {
         width: 90vw;
+        height: 290px;
         justify-content: center;
         grid-template-rows: repeat(2, 150px);
         grid-template-columns: 88vw;
@@ -324,12 +375,7 @@ button {
     }
 
     label {
-        font-size: 20px;
         padding-bottom: 15px;
-    }
-
-    input {
-        font-size: 15px;
     }
 
     .result {
