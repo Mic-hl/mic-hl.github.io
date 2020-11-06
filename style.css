@@ -23,6 +23,31 @@ h2 {
     border-radius: 2px;
     column-gap: 12px;
     background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
+/* body */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+
+/* header */
+
+h2 {
+    text-align: center;
+    text-shadow: 3px 5px 5px rgba(180, 193, 209, 0.7);
+    margin: 25px;
+}
+
+#header_container {
+    display: grid;
+    width: 98vw;
+    margin: auto;
+    grid-template-rows: 40px;
+    grid-template-columns: 180px repeat(3, 40px) 1fr;
+    border-radius: 2px;
+    column-gap: 12px;
+    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
     padding: 2px;
     grid-template-areas: "mdn fcc w3 hcj txt";
 }
@@ -260,7 +285,7 @@ button {
 
 @media only screen and (max-width: 850px) {
     h2 {
-        margin-top: 35px;
+        margin: 70px auto 30px auto;
     }
 
     #header_container {
@@ -269,26 +294,18 @@ button {
 }
 
 @media only screen and (max-width: 620px) {
-    h2 {
-        margin-top: 40px;
-    }
-
     #header_container {
         grid-template-rows: 70px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    h2 {
-        margin-top: 50px;
-    }
-
     #header_container {
         width: 98vw;
-        padding: 10px 0 10px 0;
+        padding: 30px 0 10px 0;
         margin: 30px auto 10px auto;
         justify-content: space-evenly;
-        grid-template-rows: 40px 65px;
+        grid-template-rows: 40px 75px;
         grid-template-columns: 180px repeat(3, 40px);
         row-gap: 12px;
         background: linear-gradient(180deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
@@ -298,7 +315,8 @@ button {
 
     #link_dscrptn {
         text-align: center;
-        margin-top: 25px;
+        margin-top: 35px;
+        padding: 0;
     }
 
     .playground {
@@ -317,7 +335,7 @@ button {
     .convi {
         width: 90vw;
         justify-content: center;
-        grid-template-rows: repeat(2, 200px);
+        grid-template-rows: repeat(2, 150px);
         grid-template-columns: 88vw;
     }
 
@@ -351,7 +369,7 @@ button {
     }
     
     #converter_container {
-        grid-template-rows: repeat(5, 400px);
+        grid-template-rows: repeat(5, 310px);
         row-gap: 0;
     }
 }
