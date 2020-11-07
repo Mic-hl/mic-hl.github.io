@@ -379,6 +379,10 @@ button {
     .navLink {
         width: 115px;
     }
+
+    .toTop {
+        margin: 40px auto;
+    }
 }
 
 @media only screen and (max-width: 500px) {
