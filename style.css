@@ -396,7 +396,7 @@ button {
 
     .box {
         height: 130px;
-        width: 88vw;
+        width: 87vw;
         grid-template-rows: 130px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: "label input result bttn";
