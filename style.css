@@ -224,8 +224,8 @@ button {
     width: 180px;
     height: 180px;
     display: grid;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: center;
+    align-content: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "label label"
