@@ -69,7 +69,8 @@ h2 {
     background-color: rgba(231, 240, 240, 0.801);
     box-shadow: 3px 5px 5px rgba(180, 193, 209, 0.89);
     height: 35px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 4px;
 }
 
