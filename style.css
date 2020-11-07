@@ -9,7 +9,6 @@
     background-size: cover;
 }
 
-
 /* sidebar */
 
 aside {
@@ -96,9 +95,9 @@ h2 {
     margin: auto;
     grid-template-rows: 40px;
     grid-template-columns: 180px repeat(3, 40px) 1fr;
+    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
     border-radius: 2px;
     column-gap: 12px;
-    background: linear-gradient(90deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
     padding: 2px;
     grid-template-areas: "mdn fcc w3 hcj txt";
 }
@@ -349,8 +348,8 @@ button {
         justify-content: space-evenly;
         grid-template-rows: 40px 75px;
         grid-template-columns: 180px repeat(3, 40px);
-        row-gap: 12px;
         background: linear-gradient(180deg, rgba(180, 193, 209, 0), rgba(180, 193, 209, 0.4));
+        row-gap: 12px;
         grid-template-areas: "mdn fcc w3 hcj"
                              "txt txt txt txt";
     }
