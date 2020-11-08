@@ -413,6 +413,10 @@ button {
         border-radius: 10px;
     }
     
+    label {
+        padding-bottom: 5px;
+    }
+    
     #converter_container {
         grid-template-rows: repeat(5, 310px);
         row-gap: 0;
