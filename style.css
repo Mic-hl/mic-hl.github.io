@@ -385,10 +385,11 @@ button {
 @media only screen and (max-width: 500px) {
     .convi {
         width: 90vw;
-        height: 300px;
+        height: 280px;
         justify-content: center;
-        grid-template-rows: repeat(2, 150px);
+        grid-template-rows: repeat(2, 130px);
         grid-template-columns: 88vw;
+        row-gap: 10px;
     }
 
     .box {
