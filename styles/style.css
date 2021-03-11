@@ -235,7 +235,6 @@ button:focus {
 @media screen and (max-width: 800px) {
     .playground {
         width: 636px;
-        margin: auto;
         padding: 5px 0;
     }
 }
