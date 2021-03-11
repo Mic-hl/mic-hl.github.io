@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" /> <!--für den favicon Error-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/maze_01_style.css">
+    <link rel="stylesheet" href="styles/maze_02_style.css">
+    <script src="libs/jquery-3.4.1.min.js"></script>
+    <title>.project</title>
+</head>
+<body>
+    <div class="playground">
+        <div class="contentBox" id="gameScreen">
+            <div class="gameControls">
+                <button id="buttonUp" class="controlButton" disabled>^</button>
+                <button id="buttonDown" class="controlButton" disabled>^</button>
+                <button id="buttonLeft" class="controlButton" disabled> ^</button>
+                <button id="buttonRight" class="controlButton" disabled>^</button>
+            </div>
+            <div id="screenBox">
+                <div id="cover">MegaMaze</div>
+                <div id="target" class="inactive"></div>
+                <div id="playerBox"></div>
+            </div>
+        </div>
+
+        <div id="startBox">
+            <p>Get to the end of the maze as fast as you can... and try to avoid the walls.</p>
+            <p class="small">If you hit the wall more than 14 times you're not added to the highscore list.<br>You can also use the 'W', 'S', 'D' and 'A' keys.</p>
+            <div>
+                <button id="buttonStart">start game</button>
+                <button id="buttonStop">stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/time_script.js"></script>
+    <script src="js/movement_script.js"></script>
+    <script src="js/game_script.js"></script>
+</body>
+</html>

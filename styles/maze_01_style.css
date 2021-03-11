@@ -1,0 +1,238 @@
+#wall01 {top: 0; left: 28px; height: 123px;}
+
+#wall02 {top: 147px; left: 28px; height: 126px;}
+
+#wall03 {top: 0; left: 56px; height: 82px;}
+
+#wall04 {top: 107px; left: 56px; height: 112px;}
+
+#wall05 {top: 245px; left: 30px; width: 80px;}
+
+#wall06 {top: 274px; left: 56px; height: 26px;}
+
+#wall07 {top: 0; left: 84px;height: 164px;}
+
+#wall08 {top: 271px; left: 56px; width: 56px;}
+
+#wall09 {top: 245px; left: 110px; height: 29px;}
+
+#wall10 {top: 190px; left: 84px; height: 55px;}
+
+#wall11 {top: 161px; left: 59px; width: 28px;}
+
+#wall12 {top: 189px; left: 84px; width: 28px;}
+
+#wall13 {top: 28px; left: 110px; height: 164px;}
+
+#wall14 {top: 28px; left: 110px; width: 84px;}
+
+#wall15 {top: 0; left: 219px; height: 56px;}
+
+#wall16 {top: 56px; left: 139px; width: 83px;}
+
+#wall17 {top: 83px; left: 139px; width: 110px;}
+
+#wall18 {top: 28px; left: 249px; height: 58px;}
+
+#wall19 {top: 83px; left: 139px; height: 191px;}
+
+#wall20 {top: 216px; left: 110px; width: 29px;}
+
+#wall21 {top: 110px; left: 166px; height: 190px;}
+
+#wall22 {top: 28px; left: 249px; width: 58px;}
+
+#wall23 {top: 28px; left: 331px; width: 180px;}
+
+#wall24 {top: 28px; left: 508px; height: 87px;}
+
+#wall25 {top: 138px; left: 483px; width: 57px;}
+
+#wall26 {top: 54px; left: 480px; height: 87px;}
+
+#wall27 {top: 54px; left: 275px; width: 205px;}
+
+#wall28 {top: 82px; left: 275px; height: 31px;}
+
+#wall29 {top: 110px; left: 166px; width: 110px;}
+
+#wall30 {top: 82px; left: 275px; width: 80px;}
+
+#wall31 {top: 56px; left: 380px; height: 56px;}
+
+#wall32 {top: 110px; left: 302px; width: 81px;}
+
+#wall33 {top: 138px; left: 194px; width: 215px;}
+
+#wall34 {top: 138px; left: 194px; height: 136px;}
+
+#wall35 {top: 82px; left: 406px; height: 58px;}
+
+#wall36 {top: 82px; left: 406px; width: 50px;}
+
+#wall37 {top: 110px; left: 434px; width: 48px;}
+
+#wall38 {top: 138px; left: 406px; width: 50px;}
+
+#wall39 {top: 273px; left: 194px; width: 202px}
+
+#wall40 {top: 245px; left: 418px; height: 55px}
+
+#wall41 {top: 245px; left: 222px; width: 199px}
+
+#wall42 {top: 166px; left: 222px; width: 289px}
+
+#wall43 {top: 166px; left: 222px; height: 53px;}
+
+#wall44 {top: 194px; left: 250px; height: 53px;}
+
+#wall45 {top: 166px; left: 280px; height: 53px;}
+
+#wall46 {top: 217px; left: 280px; width: 141px;}
+
+#wall47 {top: 169px; left: 446px; height: 107px;}
+
+#wall48 {top: 169px; left: 508px; height: 107px;}
+
+#wall49 {top: 194px; left: 477px; height: 106px;}
+
+#wall50 {top: 189px; left: 331px; width: 90px;}
+
+#wall51 {top: 168px; left: 331px; height: 22px;}
+
+.position_01 {
+    top: 169px;
+    left: 283px;
+}
+
+#path01 {top: 5px; left: 5px; height: 273px;}
+
+#path02 {top: 277px; left: 5px; width: 29px;}
+
+#path03 {top: 249px; left:33px; height: 28px;}
+
+#path04 {top: 249px; left: 33px; width: 56px;}
+
+#path05 {top: 125px; left: 5px; width: 29px;}
+
+#path06 {top: 5px; left: 33px; height: 217px;}
+
+#path07 {top: 85px; left: 33px; width: 29px;}
+
+#path08 {top: 5px; left: 61px; height: 133px}
+
+#path09 {top: 221px; left: 33px; width: 29px}
+
+#path10 {top: 165px; left: 61px; height: 56px}
+
+#path11 {top: 165px; left: 61px; width: 29px}
+
+#path12 {top: 5px; left: 89px; height: 160px}
+
+#path13 {top: 5px; left: 89px; width: 109px}
+
+#path14 {top: 5px; left: 197px; height: 29px;}
+
+#path15 {top: 33px; left: 117px; width: 80px;}
+
+#path16 {top: 33px; left: 117px; height: 161px;}
+
+#path17 {top: 193px; left: 89px; width: 28px;}
+
+#path18 {top: 193px; left: 89px; height: 28px;}
+
+#path19 {top: 221px; left: 89px; width: 28px;}
+
+#path20 {top: 221px; left: 117px; height: 57px;}
+
+#path21 {top: 277px; left: 61px; width: 85px;}
+
+#path22 {top: 89px; left: 145px; height: 188px;}
+
+#path23 {top: 61px; left: 117px; width: 109px;}
+
+#path24 {top: 5px; left: 225px; height: 56px;}
+
+#path25 {top: 5px; left: 225px; width: 289px;}
+
+#path26 {top: 5px; left: 513px; height: 113px;}
+
+#path27 {top: 117px; left: 485px; width: 28px;}
+
+#path28 {top: 33px; left: 485px; height: 84px;}
+
+#path29 {top: 33px; left: 253px; width: 232px;}
+
+#path30 {top: 61px; left: 253px; height: 29px;}
+
+#path31 {top: 89px; left: 145px; width: 108px;}
+
+#path32 {top: 61px; left: 253px; width: 105px;}
+
+#path33 {top: 61px; left: 357px; height: 29px;}
+
+#path34 {top: 89px; left: 281px; width: 76px;}
+
+#path35 {top: 89px; left: 281px; height: 29px;}
+
+#path36 {top: 117px; left: 173px; width: 213px;}
+
+#path37 {top: 61px; left: 385px; height: 57px;}
+
+#path38 {top: 61px; left: 385px; width: 73px}
+
+#path39 {top: 61px; left: 457px; height: 29px;}
+
+#path40 {top: 89px; left: 413px; width: 45px;}
+
+#path41 {top: 89px; left: 413px; height: 29px;}
+
+#path42 {top: 117px; left: 413px; width: 45px;}
+
+#path43 {top: 117px; left: 457px; height: 29px;}
+
+#path44 {top: 145px; left: 201px; width: 313px;}
+
+#path45 {top: 145px; left: 513px; height: 133px;}
+
+#path46 {top: 277px; left: 481px; width: 33px;}
+
+#path47 {top: 173px; left: 481px; height: 105px;}
+
+#path48 {top: 173px; left: 485px; height: 105px;}
+
+#path49 {top: 173px; left: 453px; width: 33px;}
+
+#path50 {top: 173px; left: 453px; height: 105px;}
+
+#path51 {top: 277px; left: 425px; width: 28px;}
+
+#path52 {top: 117px; left: 173px; height: 161px;}
+
+#path53 {top: 277px; left: 173px; width: 225px;}
+
+#path54 {top: 249px; left: 397px; height: 28px;}
+
+#path55 {top: 249px; left: 201px; width: 197px;}
+
+#path56 {top: 145px; left: 201px; height: 105px;}
+
+#path58 {top: 173px; left: 229px; height: 49px;}
+
+#path59 {top: 173px; left: 229px; width: 29px;}
+
+#path60 {top: 173px; left: 257px; height: 49px;}
+
+#path61 {top: 221px; left: 257px; width: 169px;}
+
+#path62 {top: 173px; left: 425px; height: 104px;}
+
+#path63 {top: 193px; left: 325px; width: 100px;}
+
+#trap02 {top: 28px; left: 307px; width: 24px;}
+
+#trap03 {top: 54px; left: 252px; width: 23px;}
+
+#trap04 {top: 219px; left: 222px; height: 26px;}
+
+#trap06 {top: 34px; left: 253px; height: 27px;}

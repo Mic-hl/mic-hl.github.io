@@ -1,0 +1,233 @@
+
+/* This is the main style */
+
+body {
+    background-color: rgba(202, 195, 133, 0.452);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    display: block;
+}
+
+.playground {
+    background-color: rgba(206, 177, 80, 0.349);
+    width: 80vw;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px rgba(172, 106, 62, 0.418);
+    margin: 25px auto 15px auto;
+    position: relative;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.playground {
+    background-color: rgba(206, 177, 80, 0.349);
+    width: 80vw;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px rgba(172, 106, 62, 0.418);
+    margin: 25px auto 15px auto;
+    position: relative;
+}
+
+/* --display */
+
+.contentBox {
+    border: 8px inset rgb(177, 93, 93);
+    background-color: black;
+    box-shadow: 0 0 7px black;
+    height: 400px;
+    width: 600px;
+    margin: 30px auto;
+}
+
+#screenBox {
+    position: relative;
+    bottom: 40px;
+    width: 90%;
+    height: 300px;
+    background-color: rgb(217, 221, 223);
+    margin: auto;
+}
+
+#startBox {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#cover {
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    background-color: rgb(119, 30, 30);
+    z-index: 1;
+    width: 100%;
+    height: 220px;
+}
+
+.tableTime {
+    width: 300px;
+}
+
+.third:hover {
+    cursor: pointer;
+}
+
+.timeInMinutes {
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    right: 45%;
+    background-color: rgba(233, 190, 121, 0.349);
+    border-radius: 5px;
+}
+
+
+
+.third p:nth-of-type(1) {
+    text-align: center;
+}
+
+/* --buttons */
+
+.gameControls {
+    margin: auto;
+    position: relative;
+    top: 330px;
+    width: 90px;
+    height: 60px;
+}
+
+.controlButton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid darkolivegreen;
+    position: relative;
+}
+
+#buttonRight {
+    left: 60px;
+    bottom: 60px;
+    transform: rotate(90deg);
+}
+
+#buttonDown {
+    left: 30px;
+    transform: rotate(180deg);
+}
+
+#buttonLeft {
+    left: 0;
+    bottom: 30px;
+    transform: rotate(-90deg);
+}
+
+#buttonUp {
+    left: 30px;
+}
+
+#buttonStart {
+    width: 100px;
+}
+
+#buttonStop {
+    width: 100px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#startBox div {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+/* --player & target */
+
+#playerBox {
+    position: absolute;
+    background-color: bisque;
+    border: 1px solid rgb(192, 162, 125);
+    border-radius: 25%;
+    height: 18px;
+    width: 18px;
+    top: 5px;
+    left: 5px;
+}
+
+#target {
+    position: absolute;
+    background-color: antiquewhite;
+    height: 48px;
+    width: 48px;
+}
+
+.inactive {
+    display: none;
+}
+
+/* -- */
+
+.second {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third table {
+    width: 100%;
+    text-align: center;
+}
+
+.time {
+    width: 40%;
+}
+
+.wallHits {
+    width: 20%;
+}
+
+.path {
+    position: absolute;
+}
+
+.vePa {
+    width: 1px;
+}
+
+.hoPa {
+    height: 1px;
+}
+
+/* --objects */
+
+.wall {
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+}
+
+.vertical {width: 3px;}
+
+.horizontal {height: 3px;}
+
+/* --responsive */
+
+@media screen and (min-width: 1400px) {
+    .playground {
+        width: 55vw;
+    }
+}
