@@ -97,7 +97,7 @@ button {
     position: absolute;
     text-align: center;
     width: 70px;
-    right: 45%;
+    right: 47%;
     background-color: rgba(233, 190, 121, 0.349);
     border-radius: 5px;
 }
@@ -244,5 +244,45 @@ button:focus {
     .playground {
         width: 636px;
         padding: 5px 0;
+    }
+
+    .contentBox {
+        height: 550px;
+    }
+
+    .gameControls {
+        top: 390px;
+        width: 180px;
+        height: 120px;
+    }
+
+    .controlButton {
+        width: 60px;
+        height: 60px;
+    }
+
+    #buttonRight {
+        left: 120px;
+        bottom: 120px;
+        transform: rotate(90deg);
+    }
+    
+    #buttonDown {
+        left: 60px;
+        transform: rotate(180deg);
+    }
+    
+    #buttonLeft {
+        left: 0;
+        bottom: 60px;
+        transform: rotate(-90deg);
+    }
+    
+    #buttonUp {
+        left: 60px;
+    }
+
+    .top {
+        top: 90px;
     }
 }
