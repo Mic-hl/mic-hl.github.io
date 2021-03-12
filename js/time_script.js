@@ -244,47 +244,47 @@ function saveInStorage() {
 
         let stats = [name, time, hits];
         let writeInStorage = "";
-
+        
         switch (i) {
             case 0:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_01", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_01", writeInStorage);
                 break;
             case 1:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_02", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_02", writeInStorage);
                 break;
             case 2:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_03", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_03", writeInStorage);
                 break;
             case 3:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_04", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_04", writeInStorage);
                 break;
             case 4:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_05", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_05", writeInStorage);
                 break;
             case 5:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_06", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_06", writeInStorage);
                 break;
             case 6:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_07", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_07", writeInStorage);
                 break;
             case 7:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_08", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_08", writeInStorage);
                 break;
             case 8:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_09", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_09", writeInStorage);
                 break;
             case 9:
                 writeInStorage = "username=" + stats[0] + ", time=" + stats[1] + ", hits=" + stats[2];
-                localStorage.setItem("maze_master_highscore_10", writeInStorage);
+                localStorage.setItem("mega_maze_highscore_10", writeInStorage);
                 break;
             default:
                 break;
