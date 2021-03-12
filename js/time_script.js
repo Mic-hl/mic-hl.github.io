@@ -142,39 +142,39 @@ function updateHighScores(userStats) {
         if (userMiliseconds == allHighScores[i]) {
             switch (i) {
                 case 0:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 1:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 2:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 3:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 4:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 5:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 6:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 7:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 8:
-                    table.insertBefore(row, table.querySelector("tr").nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling);
+                    table.insertBefore(row, table.querySelector("tr").nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling);
                     if (allHighScores.length > 10) table.removeChild(table.lastElementChild);
                     break;
                 case 9:
