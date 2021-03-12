@@ -307,16 +307,16 @@ function createStatsDisplay() {
  */
 function loadHighScore() {
     try {
-        let highScore01 = localStorage.getItem("maze_master_highscore_01");
-        let highScore02 = localStorage.getItem("maze_master_highscore_02");
-        let highScore03 = localStorage.getItem("maze_master_highscore_03");
-        let highScore04 = localStorage.getItem("maze_master_highscore_04");
-        let highScore05 = localStorage.getItem("maze_master_highscore_05");
-        let highScore06 = localStorage.getItem("maze_master_highscore_06");
-        let highScore07 = localStorage.getItem("maze_master_highscore_07");
-        let highScore08 = localStorage.getItem("maze_master_highscore_08");
-        let highScore09 = localStorage.getItem("maze_master_highscore_09");
-        let highScore10 = localStorage.getItem("maze_master_highscore_10");
+        let highScore01 = localStorage.getItem("mega_maze_highscore_01");
+        let highScore02 = localStorage.getItem("mega_maze_highscore_02");
+        let highScore03 = localStorage.getItem("mega_maze_highscore_03");
+        let highScore04 = localStorage.getItem("mega_maze_highscore_04");
+        let highScore05 = localStorage.getItem("mega_maze_highscore_05");
+        let highScore06 = localStorage.getItem("mega_maze_highscore_06");
+        let highScore07 = localStorage.getItem("mega_maze_highscore_07");
+        let highScore08 = localStorage.getItem("mega_maze_highscore_08");
+        let highScore09 = localStorage.getItem("mega_maze_highscore_09");
+        let highScore10 = localStorage.getItem("mega_maze_highscore_10");
         let highScores = [highScore01, highScore02, highScore03, highScore04, highScore05, highScore06, highScore07, highScore08, highScore09, highScore10];
     
         for (let i = 0; i < highScores.length; i++) {
