@@ -236,22 +236,16 @@ button:focus {
 
 @media screen and (min-width: 1400px) {
     .playground {
-        width: 55vw;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .playground {
         width: 636px;
         padding: 5px 0;
     }
 
     .contentBox {
-        height: 550px;
+        height: 530px;
     }
 
     .gameControls {
-        top: 390px;
+        top: 350px;
         width: 180px;
         height: 120px;
     }
@@ -283,6 +277,10 @@ button:focus {
     }
 
     .top {
-        top: 90px;
+        top: 60px;
+    }
+
+    #screenBox {
+        bottom: 100px;
     }
 }
