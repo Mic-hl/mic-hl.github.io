@@ -338,7 +338,7 @@ function loadHighScore() {
         let seventh = ["mouse", "346:72", 12];
         let eigth = ["kelinci", "361:26", 13];
         let ninth = ["mehr schweinchen", "370:01", 13];
-        let tenth = ["tikus", "393:20", 14];
+        let tenth = ["熊の実", "393:20", 14];
         updateHighScores(first);
         updateHighScores(second);
         updateHighScores(third);
